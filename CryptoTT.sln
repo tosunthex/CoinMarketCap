@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoTT.Coinmarketcap", "CryptoTT.Coinmarketcap\CryptoTT.Coinmarketcap.csproj", "{8F6AB89F-C5D3-4311-88CB-BBCAA4F21ACB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoTT.Coinmarketcap.Test", "CryptoTT.Coinmarketcap.Test\CryptoTT.Coinmarketcap.Test.csproj", "{C6D39EED-161E-495F-88F4-A090D4413F13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F6AB89F-C5D3-4311-88CB-BBCAA4F21ACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F6AB89F-C5D3-4311-88CB-BBCAA4F21ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F6AB89F-C5D3-4311-88CB-BBCAA4F21ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F6AB89F-C5D3-4311-88CB-BBCAA4F21ACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6D39EED-161E-495F-88F4-A090D4413F13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6D39EED-161E-495F-88F4-A090D4413F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6D39EED-161E-495F-88F4-A090D4413F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6D39EED-161E-495F-88F4-A090D4413F13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

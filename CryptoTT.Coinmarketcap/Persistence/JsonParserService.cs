@@ -1,0 +1,18 @@
+﻿using System.Net.Http;
+using System.Threading.Tasks;
+using CryptoTT.Coinmarketcap.Core;
+using Newtonsoft.Json;
+
+namespace CryptoTT.Coinmarketcap.Persistence
+{
+    public class JsonParserService
+    {
+        public async Task<T> ParseResponse<T>(HttpResponseMessage httpResponseMessage)
+        {
+            httpResponseMessage.EnsureSuccessStatusCode();
+            var responseContent = await httpResponseMessage.Content.ReadAsStringAsync();
+            var listingsResponse = JsonConvert.DeserializeObject<T>(responseContent);
+            return listingsResponse;
+        }
+    }
+}

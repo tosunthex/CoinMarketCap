@@ -1,0 +1,17 @@
+/home/levent/RiderProjects/CryptoTT/CryptoTT.Coinmarketcap.Test/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/home/levent/RiderProjects/CryptoTT/CryptoTT.Coinmarketcap.Test/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/home/levent/RiderProjects/CryptoTT/CryptoTT.Coinmarketcap.Test/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/home/levent/RiderProjects/CryptoTT/CryptoTT.Coinmarketcap.Test/bin/Debug/netcoreapp2.1/CryptoTT.Coinmarketcap.Test.deps.json
+/home/levent/RiderProjects/CryptoTT/CryptoTT.Coinmarketcap.Test/bin/Debug/netcoreapp2.1/CryptoTT.Coinmarketcap.Test.runtimeconfig.json
+/home/levent/RiderProjects/CryptoTT/CryptoTT.Coinmarketcap.Test/bin/Debug/netcoreapp2.1/CryptoTT.Coinmarketcap.Test.runtimeconfig.dev.json
+/home/levent/RiderProjects/CryptoTT/CryptoTT.Coinmarketcap.Test/bin/Debug/netcoreapp2.1/CryptoTT.Coinmarketcap.Test.dll
+/home/levent/RiderProjects/CryptoTT/CryptoTT.Coinmarketcap.Test/bin/Debug/netcoreapp2.1/CryptoTT.Coinmarketcap.Test.pdb
+/home/levent/RiderProjects/CryptoTT/CryptoTT.Coinmarketcap.Test/bin/Debug/netcoreapp2.1/CryptoTT.Coinmarketcap.dll
+/home/levent/RiderProjects/CryptoTT/CryptoTT.Coinmarketcap.Test/bin/Debug/netcoreapp2.1/CryptoTT.Coinmarketcap.pdb
+/home/levent/RiderProjects/CryptoTT/CryptoTT.Coinmarketcap.Test/obj/Debug/netcoreapp2.1/CryptoTT.Coinmarketcap.Test.csprojAssemblyReference.cache
+/home/levent/RiderProjects/CryptoTT/CryptoTT.Coinmarketcap.Test/obj/Debug/netcoreapp2.1/CryptoTT.Coinmarketcap.Test.csproj.CoreCompileInputs.cache
+/home/levent/RiderProjects/CryptoTT/CryptoTT.Coinmarketcap.Test/obj/Debug/netcoreapp2.1/CryptoTT.Coinmarketcap.Test.AssemblyInfoInputs.cache
+/home/levent/RiderProjects/CryptoTT/CryptoTT.Coinmarketcap.Test/obj/Debug/netcoreapp2.1/CryptoTT.Coinmarketcap.Test.AssemblyInfo.cs
+/home/levent/RiderProjects/CryptoTT/CryptoTT.Coinmarketcap.Test/obj/Debug/netcoreapp2.1/CryptoTT.Coinmarketcap.Test.csproj.CopyComplete
+/home/levent/RiderProjects/CryptoTT/CryptoTT.Coinmarketcap.Test/obj/Debug/netcoreapp2.1/CryptoTT.Coinmarketcap.Test.dll
+/home/levent/RiderProjects/CryptoTT/CryptoTT.Coinmarketcap.Test/obj/Debug/netcoreapp2.1/CryptoTT.Coinmarketcap.Test.pdb
