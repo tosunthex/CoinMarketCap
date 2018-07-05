@@ -9,7 +9,7 @@ namespace Cryptott.Coinmarketcap.Test
     {
         private readonly TickerReposity _tickerReposity;
         private const int CryptoReturnLimit = 10;
-
+        
         public TickerTest()
         {
             _tickerReposity = new TickerReposity();
@@ -101,5 +101,15 @@ namespace Cryptott.Coinmarketcap.Test
             var response = _tickerReposity.GetTopCrypto(Start.StartId, CryptoReturnLimit, SortBy.Id, Currency.EUR);
             Assert.Equal(Currency.EUR,response.Result.Data.Values.First().Quotes.Keys.Last());
         }
+
+        [Fact]
+        public void Ticker_With_Id()
+        {
+            const int XrpId = 52;
+            var response = _tickerReposity.GetById(XrpId, Currency.BTC);
+            Assert.Equal(XrpId,response.Result.Data.Id);
+            Assert.Equal(Currency.BTC,response.Result.Data.Quotes.Keys.Last());
+        }
+
     }
 }

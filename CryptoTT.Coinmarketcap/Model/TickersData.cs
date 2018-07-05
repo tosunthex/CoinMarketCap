@@ -1,11 +1,12 @@
-﻿using Newtonsoft.Json;
+﻿using System.Collections.Generic;
+using Newtonsoft.Json;
 
 namespace CryptoTT.Coinmarketcap.Model
 {
-    public class TickerData
+    public class TickersData
     {
         [JsonProperty("data")]
-        public Ticker Data { get; set; }
+        public Dictionary<string, Ticker> Data { get; set; }
 
         [JsonProperty("metadata")]
         public TickerMetadata TickerMetadata { get; set; }

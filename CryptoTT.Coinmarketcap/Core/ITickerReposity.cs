@@ -5,7 +5,8 @@ namespace CryptoTT.Coinmarketcap.Core
 {
     public interface ITickerReposity
     {
-        Task<TickerData> GetTopCrypto();
-        Task<TickerData> GetTopCrypto(int start,int limit,string sort,string convert );
+        Task<TickersData> GetTopCrypto();
+        Task<TickersData> GetTopCrypto(int start,int limit,string sort,string convert );
+        Task<TickerData> GetById(int id,string convert);
     }
 }
