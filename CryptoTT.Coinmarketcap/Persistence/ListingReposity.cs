@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 using CryptoTT.Coinmarketcap.Core;
@@ -7,22 +8,21 @@ using CryptoTT.Coinmarketcap.Parameters;
 
 namespace CryptoTT.Coinmarketcap.Persistence
 {
-    public class GlobalReposity:IGlobalReposity
+    public class ListingReposity:IListingsReposity
     {
         private readonly HttpClient _restClient;
-        public GlobalReposity()
+        public ListingReposity()
         {
             _restClient = new HttpClient{BaseAddress = new Uri(Endpoints.CoinMarketCapApiUrl)};
         }
-        public async Task<GlobalData> Get(string convert)
+        public async Task<ListingsData> Get()
         {
-            var queryStringService = new QueryStringService();
+            var querystringService = new QueryStringService();
             var jsonParserService = new JsonParserService();
-            var convertParam = !string.IsNullOrWhiteSpace(convert) ? $"convert={convert}" : null;
 
-            var url = queryStringService.AppendQueryString(Endpoints.GlobalData, convertParam);
+            var url = querystringService.AppendQueryString(Endpoints.Listings,"");
             var response = await _restClient.GetAsync(url);
-            return await jsonParserService.ParseResponse<GlobalData>(response);
+            return await jsonParserService.ParseResponse<ListingsData>(response);
         }
     }
 }

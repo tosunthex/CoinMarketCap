@@ -14,7 +14,7 @@ namespace CryptoTT.Coinmarketcap.Persistence
         public TickerReposity()
         {
             
-            _restClient = new HttpClient {BaseAddress = new Uri(Endpoints.ApiUrl)};
+            _restClient = new HttpClient {BaseAddress = new Uri(Endpoints.CoinMarketCapApiUrl)};
         }
 
         public Task<TickerData> GetTopCrypto()
