@@ -1,13 +1,9 @@
 ﻿using System;
-using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 using CryptoTT.Coinmarketcap.Core;
 using CryptoTT.Coinmarketcap.Model;
 using CryptoTT.Coinmarketcap.Parameters;
-using CryptoTT.Coinmarketcap.Services;
-using Microsoft.Extensions.Options;
-using Newtonsoft.Json;
 
 namespace CryptoTT.Coinmarketcap.Persistence
 {

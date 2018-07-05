@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*/obj
+/.vs
+*/bin/
+/CryptoTT.Coinmarketcap.Test/bin/
+/CryptoTT.Coinmarketcap.Test/obj/

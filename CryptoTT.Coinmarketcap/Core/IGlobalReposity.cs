@@ -3,7 +3,7 @@ using CryptoTT.Coinmarketcap.Model;
 
 namespace CryptoTT.Coinmarketcap.Core
 {
-    public interface IGlobalDataReposity
+    public interface IGlobalReposity
     {
         Task<GlobalData> Get(string convert);
     }

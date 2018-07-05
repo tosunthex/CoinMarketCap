@@ -27,7 +27,7 @@ namespace CryptoTT.Coinmarketcap
             services.AddSingleton<IHostedService, CoinMarketCapService>();
             services.AddSingleton<IHostedService, RequestCollectorService>();
             services.AddSingleton<ITickerReposity, TickerReposity>();
-            services.AddSingleton<IGlobalDataReposity, GlobalDataReposity>();
+            services.AddSingleton<IGlobalReposity, GlobalReposity>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -1,5 +1,4 @@
 ﻿using System.Linq;
-using CryptoTT.Coinmarketcap.Core;
 
 namespace CryptoTT.Coinmarketcap.Persistence
 {

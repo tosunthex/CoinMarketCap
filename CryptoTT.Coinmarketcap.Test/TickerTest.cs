@@ -18,10 +18,9 @@ namespace Cryptott.Coinmarketcap.Test
         [Fact]
         public void Ticker_Without_Parameter_Must_Return_Hundred_Crypto()
         {
-            
             var response = _tickerReposity.GetTopCrypto();
             Assert.NotNull(response);
-            Assert.Equal(response.Result.Data.Count, 100);
+            Assert.Equal(100, response.Result.Data.Count);
         }
 
         [Fact]
@@ -37,7 +36,7 @@ namespace Cryptott.Coinmarketcap.Test
         {
             const int cryptoLimit = 2;
             var response = _tickerReposity.GetTopCrypto(Start.StartId, cryptoLimit, SortBy.Rank, Currency.USD);
-            Assert.Equal(response.Result.Data.Count, 2);
+            Assert.Equal(2,response.Result.Data.Count);
         }
 
         [Fact]
@@ -100,7 +99,7 @@ namespace Cryptott.Coinmarketcap.Test
         public void Ticker_With_Currency_Parameter()
         {
             var response = _tickerReposity.GetTopCrypto(Start.StartId, CryptoReturnLimit, SortBy.Id, Currency.EUR);
-            Assert.Equal(response.Result.Data.Values.First().Quotes.Keys.Last(), "EUR");
+            Assert.Equal(Currency.EUR,response.Result.Data.Values.First().Quotes.Keys.Last());
         }
     }
 }

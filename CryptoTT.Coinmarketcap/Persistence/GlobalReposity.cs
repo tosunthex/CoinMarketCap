@@ -1,19 +1,16 @@
 ﻿using System;
-using System.Net;
 using System.Net.Http;
-using System.Threading;
 using System.Threading.Tasks;
 using CryptoTT.Coinmarketcap.Core;
 using CryptoTT.Coinmarketcap.Model;
 using CryptoTT.Coinmarketcap.Parameters;
-using MongoDB.Driver.Core.Clusters.ServerSelectors;
 
 namespace CryptoTT.Coinmarketcap.Persistence
 {
-    public class GlobalDataReposity:IGlobalDataReposity
+    public class GlobalReposity:IGlobalReposity
     {
         private readonly HttpClient _restClient;
-        public GlobalDataReposity()
+        public GlobalReposity()
         {
             _restClient = new HttpClient{BaseAddress = new Uri(Endpoints.ApiUrl)};
         }

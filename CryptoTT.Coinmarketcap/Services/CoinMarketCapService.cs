@@ -1,22 +1,18 @@
 ﻿using System;
-using System.Linq;
-using System.Net.Http;
-using System.Net.NetworkInformation;
 using System.Threading;
 using System.Threading.Tasks;
 using CryptoTT.Coinmarketcap.Core;
 using CryptoTT.Coinmarketcap.Parameters;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Options;
 
 namespace CryptoTT.Coinmarketcap.Services
 {
     public class CoinMarketCapService : HostedService
     {
         private readonly ITickerReposity _coinMarketCap;
-        private readonly IGlobalDataReposity _globalDataReposity;
+        private readonly IGlobalReposity _globalDataReposity;
 
-        public CoinMarketCapService(ITickerReposity coinMarketCap,IGlobalDataReposity globalDataReposity)
+        public CoinMarketCapService(ITickerReposity coinMarketCap,IGlobalReposity globalDataReposity)
         {
             _coinMarketCap = coinMarketCap;
             _globalDataReposity = globalDataReposity;

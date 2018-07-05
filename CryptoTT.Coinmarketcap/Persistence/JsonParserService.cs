@@ -1,6 +1,5 @@
 ﻿using System.Net.Http;
 using System.Threading.Tasks;
-using CryptoTT.Coinmarketcap.Core;
 using Newtonsoft.Json;
 
 namespace CryptoTT.Coinmarketcap.Persistence
