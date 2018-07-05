@@ -25,7 +25,6 @@ namespace CryptoTT.Coinmarketcap
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddSingleton<IHostedService, CoinMarketCapService>();
-            services.AddSingleton<IHostedService, RequestCollectorService>();
             services.AddSingleton<ITickerReposity, TickerReposity>();
             services.AddSingleton<IGlobalReposity, GlobalReposity>();
             services.AddSingleton<IListingsReposity, ListingReposity>();
