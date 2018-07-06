@@ -15,8 +15,8 @@ before_build:
 build_script:  
   - cmd: dotnet publish -c Release
 test_script:
-  - cmd: cd CryptoTT.Coinmarketcap.Test
-  - cmd: dotnet xunit
+  #- cmd: cd CryptoTT.Coinmarketcap.Test
+  #- cmd: dotnet xunit
 artifacts:
  - path: '\Coinmarketcap\CryptoTT.Coinmarketcap\bin\Release\netcoreapp2.1\publish'
    name: WebSite
